@@ -1,0 +1,40 @@
+.main-benefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+
+.main-benefits-cont{
+    max-width: 350px;
+    padding: 0.2rem;
+    height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 2px 3px 2px 1px #ccc;
+    gap: 0.5rem;
+}
+
+.main-benefits-cont h2{
+    font-size: 1.2rem;
+}
+
+.main-benefits-cont p{
+    font-size: 0.8rem;
+}
+
+.icons{
+    margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .main-benefits{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.5rem;
+    }
+}
