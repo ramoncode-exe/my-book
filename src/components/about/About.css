@@ -21,7 +21,14 @@
     max-width: 1080px;
     margin: 0 auto;
     border-radius: 0.5rem;
+    box-shadow: 1px 2px 1px 0.5px rgba(0, 98, 154, 0.222);
+    background: linear-gradient(120deg, rgba(0, 98, 154, 0.589), rgba(255, 255, 255, 0.359));
 }
+
+.main-author h1{
+    font-size: 1.2rem;
+}
+
 .p-width{
     max-width: 400px;
     line-height: 1.8rem;
@@ -37,14 +44,6 @@
 
     .bookPhotos{
         width: 400px;
-    }
-
-    .main-author h1{
-        font-size: 0.9rem;
-    }
-
-    .p-width{
-    font-size: 0.7rem;
     }
 }
 
