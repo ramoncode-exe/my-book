@@ -10,8 +10,8 @@ function Header(){
             </div>
             <div>
                 <ul className="nav-links">
-                    <motion.button whileHover={{ scale: 1.1 }} className="btnChannel">Ver Canal</motion.button>
-                    <motion.button whileHover={{ scale: 1.1 }} className="btnContact">Contato</motion.button>
+                    <motion.button whileHover={{ scale: 1.1 }}  onClick={window.open("https://www.youtube.com/@ramonaqui")} className="btnChannel">Ver Canal</motion.button>
+                    <motion.button whileHover={{ scale: 1.1 }}  onClick={window.open("https://www.linkedin.com/in/ramonprog/")} className="btnContact">Contato</motion.button>
                 </ul>
             </div>
         </div>
