@@ -51,12 +51,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    .btnFaq {
-        font-size: 0.8rem;
-        padding: 0.6rem;
+    .btnFaq{
+        max-width: 300px;
     }
 
-    .textFaq {
-        font-size: 0.7rem;
+    .textFaq{
+        max-width: 300px;
     }
 }
