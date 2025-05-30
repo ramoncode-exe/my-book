@@ -4,6 +4,7 @@ import Benefits from "./components/benefits/Benefits.jsx";
 import About from "./components/about/About.jsx";
 import Testimonials from "./components/testimonials/Testimonials.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import Faq from "./components/faq/Faq.jsx"
 
 function App(){
   return(
@@ -13,6 +14,7 @@ function App(){
       <Benefits />
       <About />
       <Testimonials />
+      <Faq />
       <Footer />
     </div> 
   );
