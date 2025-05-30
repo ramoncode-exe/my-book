@@ -37,9 +37,13 @@
 
 @media screen and (max-width: 1040px) {
     
+    .main{
+        padding: 0.8rem;
+    }
+
     .main-author{
         flex-wrap: wrap;
-        max-width: 600px;
+        max-width: 500px;
     }
 
     .bookPhotos{
