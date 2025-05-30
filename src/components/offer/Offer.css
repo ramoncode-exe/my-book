@@ -1,0 +1,34 @@
+.imgLivro{
+    max-width: 600px;
+}
+
+.mainOffer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem;
+}
+
+.offerText{
+    max-width: 600px;
+}
+
+.offerText h1{
+    font-size: 1.4rem;
+}
+
+.offerText p{
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .mainOffer{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .imgLivro{
+        max-width: 500px;
+    }
+}
