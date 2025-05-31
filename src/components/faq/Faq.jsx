@@ -24,7 +24,7 @@ function Faq(){
     ];
 
     return(
-        <div className="faq">
+        <motion.div initial={{ y:+300, opacity: 0 }} animate={{ y:0, opacity: 1 }} transition={{ duration: 7, ease:"easeIn" }} className="faq">
             <h2>Perguntas Frequentes</h2>
             {faqData.map((item, index) => (
                 <FaqItem 
@@ -33,7 +33,7 @@ function Faq(){
                     answer={item.answer}
                 />
             ))}
-        </div>
+        </motion.div>
     );
 }
 

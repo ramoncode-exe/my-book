@@ -5,7 +5,7 @@ import BookBack from "../../assets/book-back.png";
 function Home(){
     return(
         <main className="main-bg">
-            <div className="main-home">
+            <motion.div initial={{ x:-200, opacity: 0 }} animate={{ x:0, opacity: 1 }} transition={{ duration: 1.5, ease:"easeIn" }} className="main-home">
                 <div>
                     <img className="bookImage" src={BookBack} alt="book image" />
                 </div>
@@ -14,7 +14,7 @@ function Home(){
                     <p>Um chamado para quem quer sair da mediocridade, abandonar a ilusão das redes e construir uma vida com caráter, propósito e atitude.</p>
                     <motion.button whileHover={{ scale: 1.1 }} className="btnBuy">Adquirir o Livro</motion.button>
                 </div>
-            </div>  
+            </motion.div>  
         </main>
         
     );

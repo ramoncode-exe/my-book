@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
+import { motion, scale } from "framer-motion";
 import "../offer/Offer.css"
 import LivroBack from "../../assets/livro-back.png"
 
 function Offer(){
     return(
-        <div className="mainOffer">
+        <motion.div initial={{ x:-400, opacity: 0 }} animate={{ x:0, opacity: 1 }} transition={{ duration: 6, ease:"easeIn" }} className="mainOffer">
             <div>
                 <img className="imgLivro" src={LivroBack} alt="livro background" />
             </div>
@@ -13,19 +13,19 @@ function Offer(){
                 <p>Você pode continuar se distraindo nas redes, vivendo no automático, reclamando da vida…
                 Ou pode investir em um conteúdo real, direto e transformador — criado por alguém que viveu na pele o que está escrito.</p>
                 <motion.button whileHover={{ scale: 1.1 }} className="btnBuy">Adquirir o Livro</motion.button>
-                <div className="span-main">
-                    <div className="span-datas">
+                <motion.div initial={{ y:+200, opacity: 0 }} animate={{ y:0, opacity: 1 }} transition={{ duration: 6.5, ease:"easeIn" }} className="span-main">
+                    <motion.div whileHover={{ scale: 1.1 }} className="span-datas">
                        <span>100+<br/> <p>Livros Vendidos</p></span>
-                    </div>
-                    <div className="span-datas">
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} className="span-datas">
                         <span>200+<br/> <p>Mentes Abertas</p></span>
-                    </div>
-                    <div className="span-datas">
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} className="span-datas">
                         <span>99%<br/> <p>Aprovação</p></span>
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
