@@ -13,6 +13,17 @@ function Offer(){
                 <p>Você pode continuar se distraindo nas redes, vivendo no automático, reclamando da vida…
                 Ou pode investir em um conteúdo real, direto e transformador — criado por alguém que viveu na pele o que está escrito.</p>
                 <motion.button whileHover={{ scale: 1.1 }} className="btnBuy">Adquirir o Livro</motion.button>
+                <div className="span-main">
+                    <div className="span-datas">
+                       <span>100+<br/> <p>Livros Vendidos</p></span>
+                    </div>
+                    <div className="span-datas">
+                        <span>200+<br/> <p>Mentes Abertas</p></span>
+                    </div>
+                    <div className="span-datas">
+                        <span>99%<br/> <p>Aprovação</p></span>
+                    </div>
+                </div>
             </div>
         </div>
     );
