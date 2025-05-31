@@ -25,7 +25,7 @@
 
 .span-datas{
     border: 1px solid rgb(0, 145, 228);
-    width: 130px;
+    width: 150px;
     padding: 0.5rem;
     border-radius: 0.5rem;
     background-color: rgba(0, 144, 228, 0.181);
@@ -45,10 +45,8 @@
 
 .span-main{
     display: flex;
-    gap: 0.5rem;
-    align-items: start;
     margin-top: 1.5rem;
-    text-align: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1040px) {
@@ -60,6 +58,14 @@
 
     .imgLivro{
         max-width: 500px;
+    }
+
+    .span-main{
+        flex-wrap: wrap;
+    }
+
+    .span-datas{
+        margin-top: 1rem;
     }
 }
 
