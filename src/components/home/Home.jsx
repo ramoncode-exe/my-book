@@ -12,7 +12,7 @@ function Home(){
                 <div className="main-home-text">
                     <h1>Se você continuar pensando como todos, vai viver como todos.</h1>
                     <p>Um chamado para quem quer sair da mediocridade, abandonar a ilusão das redes e construir uma vida com caráter, propósito e atitude.</p>
-                    <motion.button whileHover={{ scale: 1.1 }} className="btnBuy">Adquirir o Livro</motion.button>
+                    <motion.button  onClick={() => window.open("https://buy.stripe.com/fZuaEX84h9Ozd9B6mZ0Ba00")} whileHover={{ scale: 1.1 }} className="btnBuy">Adquirir o Livro</motion.button>
                 </div>
             </motion.div>  
         </main>
